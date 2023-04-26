@@ -1,6 +1,7 @@
 # Kiosk mode made fun with raspberry pi and vlc
 
 Simple program that create a new service
+
 ```
 [Unit]
 Description=rpi-kiosk
@@ -19,9 +20,9 @@ WantedBy=multi-user.target
 ## Install
 1. Run the install script with this command 
 - `./install`
-2. A directory called `rpi-kiosk` will be created under `/home/pi/kiosk.
+2. A directory called `rpi-kiosk` will be created under `/home/pi/rpi-kiosk.
 3. Place the videos in this directory.
-4. Restart the service after videos are placed in the directory.
+4. Restart the service after videos are placed inside the directory.
 - `./restart`
 
 ## Edit
@@ -34,14 +35,14 @@ WantedBy=multi-user.target
 
 ## Status
 1. View status of service
-- `sudo systemctl status rpi-kiosk.service* 
+- `sudo systemctl status rpi-kiosk.service`
 
 ## Stop
 2. Stop the service
 - `systemctl stop rpi-kiosk.service`
 
 ## Delete
-- to delete the service, go to `/etc/systemd/system` and delete the file `videokiosk.service`
+- to delete the service; go to `/etc/systemd/system` and delete the file `rpi-kiosk.service`
 - reload services with command: `systemctl daemon-reload`
 
 
