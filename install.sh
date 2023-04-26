@@ -2,8 +2,10 @@
 
 sudo cp rpi-kiosk.service /etc/systemd/system
 
-mkdir /home/pi/kiosk
-mkdir /home/pi/kiosk/video
+if [ ! -d "/home/pi/rpi-kiosk" ];
+then
+  mkdir /home/pi/rpi-kiosk
+fi
 
 sudo systemctl daemon-reload
 sudo systemctl enable rpi-kiosk.service

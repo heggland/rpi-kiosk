@@ -21,6 +21,8 @@ WantedBy=multi-user.target
 - `./install`
 2. A directory called `rpi-kiosk` will be created under `/home/pi/kiosk.
 3. Place the videos in this directory.
+4. Restart the service after videos are placed in the directory.
+- `./restart`
 
 ## Edit
 1. edit the service (the lazy way)
