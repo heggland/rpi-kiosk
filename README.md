@@ -28,6 +28,10 @@ WantedBy=multi-user.target
 1. restarts the service (the lazy way)
 - `./restart.sh`
 
+## Status
+1. View status of service
+- `sudo systemctl status rpi-kiosk.service* 
+
 ## Stop
 2. Stop the service
 - `systemctl stop rpi-kiosk.service`
