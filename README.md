@@ -19,6 +19,8 @@ WantedBy=multi-user.target
 ## Install
 1. Run the install script with this command 
 - `./install`
+2. A directory called `rpi-kiosk` will be created under `/home/pi/kiosk.
+3. Place the videos in this directory.
 
 ## Edit
 1. edit the service (the lazy way)
