@@ -1,0 +1,12 @@
+[Unit]
+Description=videokiosk
+
+[Service]
+User=pi
+Environment="DISPLAY=:0"
+ExecStart=/usr/bin/vlc --loop --fullscreen --playlist-tree --playlist-autostart --random /home/pi/kiosk/video
+WorkingDirectory=/home/pi
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
