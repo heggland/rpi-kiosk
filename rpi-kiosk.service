@@ -4,7 +4,7 @@ Description=rpi-kiosk
 [Service]
 User=pi
 Environment="DISPLAY=:0"
-ExecStart=/usr/bin/vlc --loop --fullscreen --playlist-tree --playlist-autostart --random /home/pi/rpi-kiosk
+ExecStart=/usr/bin/vlc --loop --fullscreen --playlist-tree --playlist-autostart --random --no-video-title-show /home/pi/rpi-kiosk
 WorkingDirectory=/home/pi
 Restart=always
 
