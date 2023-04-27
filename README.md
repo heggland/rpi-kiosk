@@ -17,6 +17,11 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
+### Preconditions
+1. Raspberry pi
+- tested on raspberry pi 3b and 4b
+2. Raspberry pi os installed (gui)
+
 ## Install
 1. Run the install script with this command 
 - `./install`
