@@ -1,3 +1,4 @@
 - make sure the install copy command overwrite the current rpi-kiosk.service
 - make the script work from raspberry pi os lite (no desktop environment)
 - test on rpi zero w
+- look into loading new videos over usb (maybe a cron job that checks for a usb connection and copy the files into the video folder)
