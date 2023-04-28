@@ -19,13 +19,13 @@ WantedBy=multi-user.target
 
 ### Preconditions
 1. Raspberry pi
-- tested on raspberry pi 3b and 4b
+- working on raspberry pi 3b+ and 4b
 2. Raspberry pi os installed (gui)
 
 ## Install
 1. Run the install script with this command 
 - `./install`
-2. A directory called `rpi-kiosk` will be created under `/home/pi/rpi-kiosk.
+2. A directory called `rpi-kiosk-playlist` will be created under `/home/pi/.
 3. Place the videos in this directory.
 4. Restart the service after videos are placed inside the directory.
 - `./restart`
