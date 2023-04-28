@@ -2,9 +2,9 @@
 
 sudo cp rpi-kiosk.service /etc/systemd/system
 
-if [ ! -d "/home/pi/rpi-kiosk" ];
+if [ ! -d "/home/pi/rpi-kiosk-playlist" ];
 then
-  mkdir /home/pi/rpi-kiosk
+  mkdir /home/pi/rpi-kiosk-playlist
 fi
 
 sudo systemctl daemon-reload
