@@ -18,9 +18,8 @@ WantedBy=multi-user.target
 ```
 
 ### Preconditions
-1. Raspberry pi
-- working on raspberry pi 3b+ and 4b
-2. Raspberry pi os installed (gui)
+1. Raspberry pi 4b
+2. Raspberry pi os gui installed
 
 ## Install
 1. Run the install script with this command 
