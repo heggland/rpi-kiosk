@@ -1,6 +1,6 @@
 # Kiosk mode made fun with raspberry pi and vlc
 
-Simple program that create a new service
+Simple program that create a new service to run vlc on boot.
 
 ```
 [Unit]
@@ -9,7 +9,7 @@ Description=rpi-kiosk
 [Service]
 User=pi
 Environment="DISPLAY=:0"
-ExecStart=/usr/bin/vlc --loop --fullscreen --playlist-tree --playlist-autostart --random /home/pi/rpi-kiosk
+ExecStart=/usr/bin/vlc --loop --fullscreen --playlist-tree --playlist-autostart --random /home/pi/rpi-kiosk-playlist
 WorkingDirectory=/home/pi
 Restart=always
 
